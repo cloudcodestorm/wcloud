@@ -5,7 +5,7 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package WordPress
- * @subpackage Twenty_Thirteen
+ * @subpackage W_Cloud
  * @since W Cloud 1.0
  */
 ?><!DOCTYPE html>
@@ -40,8 +40,8 @@
 
 			<div id="navbar" class="navbar">
 				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
-					<h3 class="menu-toggle"><?php _e( 'Menu', 'twentythirteen' ); ?></h3>
-					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentythirteen' ); ?>"><?php _e( 'Skip to content', 'twentythirteen' ); ?></a>
+					<h3 class="menu-toggle"><?php _e( 'Menu', 'wcloud' ); ?></h3>
+					<a class="screen-reader-text skip-link" href="#content" title="<?php esc_attr_e( 'Skip to content', 'wcloud' ); ?>"><?php _e( 'Skip to content', 'wcloud' ); ?></a>
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 					<?php get_search_form(); ?>
 				</nav><!-- #site-navigation -->

@@ -7,7 +7,7 @@
  * If no active widgets are in this sidebar, hide it completely.
  *
  * @package WordPress
- * @subpackage Twenty_Thirteen
+ * @subpackage W_Cloud
  * @since W Cloud 1.0
  */
 

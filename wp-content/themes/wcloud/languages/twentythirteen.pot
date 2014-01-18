@@ -145,7 +145,7 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#. #-#-#-#-#  twentythirteen.pot (W Cloud 1.1)  #-#-#-#-#
+#. #-#-#-#-#  wcloud.pot (W Cloud 1.1)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:19
 msgid "http://wordpress.org/"

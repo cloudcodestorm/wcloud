@@ -42,7 +42,7 @@ final class WP_Theme implements ArrayAccess {
 		'twentyten'      => 'Twenty Ten',
 		'twentyeleven'   => 'Twenty Eleven',
 		'twentytwelve'   => 'Twenty Twelve',
-		'twentythirteen' => 'W Cloud',
+		'wcloud' => 'W Cloud',
 	);
 
 	/**

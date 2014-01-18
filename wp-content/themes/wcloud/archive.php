@@ -13,7 +13,7 @@
  * @link http://codex.wordpress.org/Template_Hierarchy
  *
  * @package WordPress
- * @subpackage Twenty_Thirteen
+ * @subpackage W_Cloud
  * @since W Cloud 1.0
  */
 
@@ -26,13 +26,13 @@ get_header(); ?>
 			<header class="archive-header">
 				<h1 class="archive-title"><?php
 					if ( is_day() ) :
-						printf( __( 'Daily Archives: %s', 'twentythirteen' ), get_the_date() );
+						printf( __( 'Daily Archives: %s', 'wcloud' ), get_the_date() );
 					elseif ( is_month() ) :
-						printf( __( 'Monthly Archives: %s', 'twentythirteen' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'twentythirteen' ) ) );
+						printf( __( 'Monthly Archives: %s', 'wcloud' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'wcloud' ) ) );
 					elseif ( is_year() ) :
-						printf( __( 'Yearly Archives: %s', 'twentythirteen' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentythirteen' ) ) );
+						printf( __( 'Yearly Archives: %s', 'wcloud' ), get_the_date( _x( 'Y', 'yearly archives date format', 'wcloud' ) ) );
 					else :
-						_e( 'Archives', 'twentythirteen' );
+						_e( 'Archives', 'wcloud' );
 					endif;
 				?></h1>
 			</header><!-- .archive-header -->
@@ -42,7 +42,7 @@ get_header(); ?>
 				<?php get_template_part( 'content', get_post_format() ); ?>
 			<?php endwhile; ?>
 
-			<?php twentythirteen_paging_nav(); ?>
+			<?php wcloud_paging_nav(); ?>
 
 		<?php else : ?>
 			<?php get_template_part( 'content', 'none' ); ?>

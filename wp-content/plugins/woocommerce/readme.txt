@@ -369,7 +369,7 @@ Yes you can! Join in on our [GitHub repository](http://github.com/woothemes/wooc
 * Tweak - .shipping_address clears to avoid flash of ugliness in some themes when revealing shipping address
 * Tweak - created an icon font for the star ratings to improve consistency
 * Tweak - woocommerce_show_page_title filter
-* Tweak - wrapper / css tweaks for TwentyThirteen compatibility
+* Tweak - wrapper / css tweaks for wcloud compatibility
 * Tweak - Added filters for controlling cross-sell display
 * Tweak - Made hierarchy code in breadcrumbs more reliable.
 * Localisation - NZ States

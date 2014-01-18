@@ -18,8 +18,8 @@ switch( $template ) {
 	case 'twentytwelve' :
 		echo '<div id="primary" class="site-content"><div id="content" role="main">';
 		break;
-	case 'twentythirteen' :
-		echo '<div id="primary" class="site-content"><div id="content" role="main" class="entry-content twentythirteen">';
+	case 'wcloud' :
+		echo '<div id="primary" class="site-content"><div id="content" role="main" class="entry-content wcloud">';
 		break;
 	default :
 		echo '<div id="container"><div id="content" role="main">';
