@@ -1,0 +1,26 @@
+/* wcloud custom.css */
+.nav-menu{
+float:right;
+/* width:100%; */
+}
+.site-header{
+ background: url("./images/headers/banner.jpg") no-repeat scroll 0 0 #75BAE4;
+   /*  height: 471px; */
+   /* background-attachment:fixed; */
+background-position:center top; 
+border-bottom:url("./images/headers/banner_bg.png") stretch;
+border:50px solid transparent;
+
+}
+.site-footer{
+/* border:2px solid red; */
+border-image:url("./images/headers/footer_bg.png") 30 30 stretch;
+border-width:50px;
+}
+
+table,th{
+border:0px;
+}
+.accuaform-fieldname-full_name{
+width:30% !important;
+}
