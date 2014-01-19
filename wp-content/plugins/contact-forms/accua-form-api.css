@@ -32,7 +32,7 @@ div.pfbc-error {
 .accua-form-view-sidebyside .pfbc-label label { display: block; }
 .accua-form-view-sidebyside .pfbc-buttons { text-align: right; }
 .accua-form-view-sidebyside .pfbc-error { padding: .5em; margin-bottom: 1em; }
-.accua-form-view-sidebyside .pfbc-textbox, .accua-form-view-sidebyside .pfbc-textarea, .accua-form-view-sidebyside .pfbc-select { width: 98% !important; display:block; border: 1px solid #ccc; padding:2px; }
+.accua-form-view-sidebyside .pfbc-textbox, .accua-form-view-sidebyside .pfbc-textarea, .accua-form-view-sidebyside .pfbc-select { width: 98% ; display:block; border: 1px solid #ccc; padding:2px; }
 .accua-form-view-sidebyside .pfbc-fieldwrap { width: 75%; display: inline-block; }
 
 .pfbc-error { padding: .5em; margin-bottom: 1em; }

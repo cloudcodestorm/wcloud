@@ -17,10 +17,48 @@ border:50px solid transparent;
 border-image:url("./images/headers/footer_bg.png") 30 30 stretch;
 border-width:50px;
 }
+.navbar{
+padding-bottom: 100px;
+}
 
 table,th{
 border:0px;
 }
-.accuaform-fieldname-full_name{
+.accuaform-fieldname-full_name , .accuaform-fieldname-email,.accuaform-fieldname-company,.accuaform-fieldname-phone,.accuaform-fieldname-subject,.accuaform-fieldname-your_message{
 width:30% !important;
 }
+
+#logo-head{
+margin-top:-50px;
+}
+.logo-placeholder{
+float:left;
+}
+#banner_title{
+color:white;
+font-size:30px;
+ text-align: center;
+}
+#banner_subtitle{
+color:#C1E2F3;
+ text-align: center;
+}
+button, input[type="submit"]{
+background:#C1E2F3 !important;
+border-radius:0px !important;
+}
+.accua-form-view-sidebyside .pfbc-buttons{
+/* float:left; */
+margin-right:250px;
+}
+.pfbc-element-5{
+float:right;
+margin-right: 251px;
+margin-top: -185px;
+}
+.accuaform-fieldname-your_message{
+width:320px !important;
+height:150px
+}
+.cfm_footer{
+padding-top:10px;
