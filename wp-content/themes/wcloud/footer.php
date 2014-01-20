@@ -10,7 +10,7 @@
  */
 ?>
 
-		</div><!-- #main -->
+		</div><!-- #main --><div class="footerBg"></div>
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<?php get_sidebar( 'main' ); ?>
 <div class="cfm_footer">

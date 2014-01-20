@@ -50,8 +50,8 @@
 					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
 					
 				</nav><!-- #site-navigation -->
-			</div><!-- #navbar -->	
-			</div><!-- #navbar -->	
-		</header><!-- #masthead -->
-<div id="bgbanner"></div>
+			</div><!-- #navbar -->	<div class="bannerImg"><img src="/wp-content/uploads/2014/01/banner.png"></div>
+			</div><!-- #navbar -->				
+		</header><!-- #masthead -->		
+		<div id="bgbanner"></div>
 		<div id="main" class="site-main">
