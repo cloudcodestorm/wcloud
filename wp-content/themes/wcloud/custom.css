@@ -62,3 +62,21 @@ height:150px
 }
 .cfm_footer{
 padding-top:10px;
+}
+.woocommerce del,.woocommerce ins{
+display:none;
+}
+.product{
+border:0px !important;
+}
+.add_to_cart_button{
+background:#75BAE4 !important;
+border-radius:15px !important;
+border:0px !important;
+ font-weight: normal !important;
+ color:white !important ;
+ text-shadow:0px !important;
+  width: 80px;
+  height:35px;
+  text-align:center;
+}

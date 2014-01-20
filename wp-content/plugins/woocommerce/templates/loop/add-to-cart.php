@@ -43,7 +43,7 @@ global $product;
 			default :
 				if ( $product->is_purchasable() ) {
 					$link['url'] 	= apply_filters( 'add_to_cart_url', esc_url( $product->add_to_cart_url() ) );
-					$link['label'] 	= apply_filters( 'add_to_cart_text', __( 'Add to cart', 'woocommerce' ) );
+					$link['label'] 	= apply_filters( 'add_to_cart_text', __( 'order', 'woocommerce' ) );
 					$link['class']  = apply_filters( 'add_to_cart_class', 'add_to_cart_button' );
 				} else {
 					$link['url'] 	= apply_filters( 'not_purchasable_url', get_permalink( $product->id ) );
