@@ -1,0 +1,12 @@
+ <IfModule mod_rewrite.c>
+ RewriteEngine On
+ RewriteBase /wp_home/
+ RewriteRule ^Pattern /wp_home/Substitution [QSA,L]
+ RewriteCond %{REQUEST_FILENAME} !-f
+ RewriteCond %{REQUEST_FILENAME} !-d
+ RewriteRule . /index.php [L]
+ Redirect /?product=wcloudpro /?page_id=16
+ </IfModule>
+# BEGIN WordPress
+
+# END WordPress

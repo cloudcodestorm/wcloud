@@ -27,7 +27,7 @@ $woocommerce->show_messages();
 			<th class="product-thumbnail">&nbsp;</th>
 			<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
 			<th class="product-price"><?php _e( 'Price', 'woocommerce' ); ?></th>
-			<th class="product-quantity"><?php _e( 'Quantity', 'woocommerce' ); ?></th>
+			<th class="product-quantity"><?php/* _e( 'Quantity', 'woocommerce' );*/ ?></th>
 			<th class="product-subtotal"><?php _e( 'Total', 'woocommerce' ); ?></th>
 		</tr>
 	</thead>
@@ -89,7 +89,7 @@ $woocommerce->show_messages();
 						<!-- Quantity inputs -->
 						<td class="product-quantity">
 							<?php
-								if ( $_product->is_sold_individually() ) {
+							/*	if ( $_product->is_sold_individually() ) {
 									$product_quantity = sprintf( '1 <input type="hidden" name="cart[%s][qty]" value="1" />', $cart_item_key );
 								} else {
 
@@ -101,8 +101,9 @@ $woocommerce->show_messages();
 								}
 
 								echo apply_filters( 'woocommerce_cart_item_quantity', $product_quantity, $cart_item_key );
+								*/
 							?>
-						</td>
+						</td> 
 
 						<!-- Product subtotal -->
 						<td class="product-subtotal">
@@ -124,7 +125,7 @@ $woocommerce->show_messages();
 				<?php if ( $woocommerce->cart->coupons_enabled() ) { ?>
 					<div class="coupon">
 
-						<label for="coupon_code"><?php _e( 'Coupon', 'woocommerce' ); ?>:</label> <input name="coupon_code" class="input-text" id="coupon_code" value="" /> <input type="submit" class="button" name="apply_coupon" value="<?php _e( 'Apply Coupon', 'woocommerce' ); ?>" />
+						<label for="coupon_code"><?php _e( 'Coupon', 'woocommerce' ); ?>:</label> <input name="coupon_code" class="input-text" id="coupon_code" value="" /> <input type="submit" class="button serialBox" name="apply_coupon" value="<?php _e( 'Enter Serial Number', 'woocommerce' ); ?>" />
 
 						<?php do_action('woocommerce_cart_coupon'); ?>
 

@@ -18,7 +18,7 @@ global $woocommerce;
 
 <?php else : ?>
 
-	<h3><?php _e( 'Billing Address', 'woocommerce' ); ?></h3>
+	<h3 class="your-payment"><?php _e( 'Your Payment', 'woocommerce' ); ?></h3>
 
 <?php endif; ?>
 

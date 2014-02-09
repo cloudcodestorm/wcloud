@@ -546,3 +546,48 @@ function wcloud_customize_preview_js() {
 	wp_enqueue_script( 'wcloud-customizer', get_template_directory_uri() . '/js/theme-customizer.js', array( 'customize-preview' ), '20130226', true );
 }
 add_action( 'customize_preview_init', 'wcloud_customize_preview_js' );
+
+
+/* woocommerce override */
+
+// Hook in
+add_filter( 'woocommerce_checkout_fields' , 'custom_override_checkout_fields' );
+
+// Our hooked in function - $fields is passed via the filter!
+function custom_override_checkout_fields( $fields ) {
+     unset($fields['billing']['billing_first_name']);
+      unset($fields['billing']['billing_last_name']); 
+	  unset($fields['billing']['billing_company']);
+	  unset($fields['billing']['billing_address_1']);
+	  unset($fields['billing']['billing_address_2']); 
+	  unset($fields['billing']['billing_city']); 
+	  unset($fields['billing']['billing_state']); 
+	 // unset($fields['billing']['billing_email']); 
+	  unset($fields['billing']['billing_phone']);
+	  unset($fields['account ']['account_username']);
+	  unset($fields['account']['account_password']);
+	  unset($fields['account']['account_password_2']); 
+	  unset($fields['billing']['billing_last_name']); 
+	
+     return $fields;
+}
+function remove_open_wpmem_txt( $form ) {
+	$form = str_replace( array( '[wpmem_txt]', '[/wpmem_txt]' ), '', $form );
+	return $form;
+}
+add_filter( 'wpmem_login_form', 'remove_open_wpmem_txt' );
+
+add_filter( 'wpmem_login_redirect', 'my_login_redirect' );
+
+function my_login_redirect()
+{
+	// return the url that the login should redirect to
+	return 'http://livedesignstudios.tk/?page_id=186';
+}
+add_action('after_setup_theme', 'remove_admin_bar');
+
+function remove_admin_bar() {
+
+  show_admin_bar(false);
+
+}

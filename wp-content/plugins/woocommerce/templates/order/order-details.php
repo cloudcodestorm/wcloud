@@ -112,7 +112,7 @@ $order = new WC_Order( $order_id );
 <?php endif; ?>
 
 		<header class="title">
-			<h3><?php _e( 'Billing Address', 'woocommerce' ); ?></h3>
+			<h3><?php _e( 'Your Payment', 'woocommerce' ); ?></h3>
 		</header>
 		<address><p>
 			<?php

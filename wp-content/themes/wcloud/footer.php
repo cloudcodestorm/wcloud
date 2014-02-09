@@ -18,7 +18,7 @@
 </div>
 			<div class="site-info">
 				<?php do_action( 'wcloud_credits' ); ?>
-				<a href="<?php echo esc_url( __( 'http://livedesignstudios.com', 'wcloud' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'wcloud' ); ?>"><?php printf( __( '2013-2015 %s', 'wcloud' ), 'Wemagin' ); ?></a>
+				<a href="<?php echo esc_url( __( 'http://livedesignstudios.com', 'wcloud' ) ); ?>" title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'wcloud' ); ?>"><?php printf( __( '2013-2015 %s', 'wcloud' ), 'Wemagin Technology' ); ?></a>
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
